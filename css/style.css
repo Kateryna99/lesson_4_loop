@@ -1,0 +1,45 @@
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > .page {
+  flex-grow: 1;
+}
+
+.page {
+  background-color: grey;
+}
+.page__ex {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.page__link {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  transition: color 1s ease;
+}
+.page__link:hover {
+  color: white;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.img {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 100px 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
